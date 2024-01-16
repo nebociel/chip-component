@@ -8,6 +8,8 @@ Welcome to the Chip Component project! This project is a React application that 
 
 The live version of this project is hosted on Vercel and is accessible at [https://chip-component-silk.vercel.app/](https://chip-component-silk.vercel.app/). Feel free to explore the application and interact with its features.
 
+![Application Preview](image.png)
+
 ## About Vercel
 
 [Vercel](https://vercel.com/) is a cloud platform for frontend developers that enables easy deployment and hosting of web applications. It offers seamless integration with popular frontend frameworks and provides a straightforward process for deploying projects directly from your Git repository.
