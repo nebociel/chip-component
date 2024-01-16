@@ -4,6 +4,14 @@
 
 Welcome to the Chip Component project! This project is a React application that demonstrates a user interface for picking users using chips. The selected users are displayed as chips, and you can search for users by name or email.
 
+## Live Deployment
+
+The live version of this project is hosted on Vercel and is accessible at [https://chip-component-silk.vercel.app/](https://chip-component-silk.vercel.app/). Feel free to explore the application and interact with its features.
+
+## About Vercel
+
+[Vercel](https://vercel.com/) is a cloud platform for frontend developers that enables easy deployment and hosting of web applications. It offers seamless integration with popular frontend frameworks and provides a straightforward process for deploying projects directly from your Git repository.
+
 ## Table of Contents
 
 - [Project Structure](#project-structure)
@@ -28,7 +36,7 @@ The project structure is organized as follows:
 
 To run the project locally, follow these steps:
 
-1. Clone the repository: `git clone [repository_url]`.
+1. Clone the repository: `git clone https://github.com/nebociel/chip-component.git`.
 2. Navigate to the project directory: `cd chip-component-project`.
 3. Install dependencies: `npm install` or `yarn install`.
 4. Run the development server: `npm run dev` or `yarn dev`.
