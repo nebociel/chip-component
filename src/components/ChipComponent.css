@@ -1,0 +1,113 @@
+.chip-component {
+  display: flex;
+  flex-direction: column;
+  max-width: 65%;
+  margin: 100px auto;
+  background-color: #fff;
+  padding: 10%;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.chip-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.chip {
+  background-color: #f1f3f4;
+  padding: 8px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.chip-image {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.chip-info {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.chip-info-name {
+  font-weight: bold;
+  color: #333;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.chip-email {
+  font-size: 12px;
+  color: #757575;
+}
+
+.chip-remove {
+  cursor: pointer;
+  color: #757575;
+}
+
+input {
+  padding: 8px;
+  margin-top: 8px;
+  font-size: 16px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+}
+
+.user-list {
+  margin-top: 8px;
+}
+
+.user {
+  padding: 8px;
+  cursor: pointer;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  margin-bottom: 4px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.user-image {
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-info-name {
+  font-weight: bold;
+  color: #333;
+}
+
+.user-email {
+  font-size: 12px;
+  color: #757575;
+}
+
+.user:hover {
+  background-color: #f0f0f0;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 16px;
+  /* font-size: 24px; */
+  color: #333;
+}
